@@ -19,7 +19,7 @@ console.log(
     "."
 );
 
-// Question 2 
+// Question 2
 const lapTop = 450000;
 
 // Calculation
@@ -88,6 +88,36 @@ console.log(
   `You are subscribed to the ${subscription.plan} plan. Active: ${subscription.isActive}`
 );
 
-
 // let sum = true + 2;
 // console.log(sum);
+
+// Modulus
+// 20: dividend
+// 3: divisor
+20 % 3;
+
+console.log(20 % 3);
+
+console.log(20 / 3);
+
+// Concatination of strings
+const myConcatination = "I am" + " " + "full";
+console.log(myConcatination);
+
+// Objects
+const books = {
+  title: "Javascript fundamentals",
+  yearOfPublication: "1998",
+  yearOfRealease: "2911",   
+};
+
+console.log(books.yearOfPublication);
+
+books.yearOfPublication = 1993;
+books.isNew = 2001;
+console.log(books.isNew);
+
+books.type = "fictional";
+console.log(books.type);
+
+console.log(books);
